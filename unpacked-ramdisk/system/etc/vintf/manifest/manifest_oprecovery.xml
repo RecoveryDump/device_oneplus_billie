@@ -1,0 +1,13 @@
+<manifest version="1.0" type="framework">
+    <!-- ajinath.kumbhar@SYSTEM, 2019/11/07 [AN-733]- Enabling Synthetic Password requirement for Recovery. -->
+    <hal format="hidl">
+        <name>vendor.oneplus.hardware.oprecovery</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOneplusRecovery</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IOneplusRecovery/default</fqname>
+    </hal>
+</manifest>
